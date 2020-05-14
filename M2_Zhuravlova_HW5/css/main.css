@@ -1,0 +1,88 @@
+div[class='task1'] {
+    width: 950px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    border: 4px double black;
+}
+
+.task1 p {
+    font-size: 20px;
+    line-height: 25px;
+    text-indent: 40px;
+    letter-spacing: 1px;
+    font-family:'Nunito Sans', arial, sans-serif;
+    word-spacing: 5px;
+    /* выравнивать текст не стану, иначе теряется восприятие межбуквенного и межстрочного интервалов */
+}
+
+.bg-box {
+    width: 1000px;
+    height: 600px;
+    background-color: green;
+    background-image: url(../images/pole-zelen-trava-dom-derevya.jpg), 
+                    url(../images/lamp-png-0.png),
+                    url(../images/grass-png-images-pictures-transparent-28.png), 
+                    url(../images/Ёжик.png),
+                    url(../images/пончик.png);
+    background-repeat: no-repeat, repeat-x,repeat-x, repeat-y, repeat-y;
+    background-position: center, top, bottom, left, right;
+    background-size: auto, 35px, 250px, 30px, 30px; 
+}
+
+div[class^='box'] {
+    width: 100px;
+    height: 100px;
+}
+
+.box1 {
+    background-image: repeating-linear-gradient(
+        green, green .7em,
+        white .3em, white 1.3em
+    );
+}
+
+.box2 {
+    background-image: linear-gradient(
+        to top left,
+        black 20%, gray 20%, gray 80%, black 80%, black 100%
+        );
+}
+
+.box3 {
+    background-image: radial-gradient(
+        1em, red 100%, black 100%
+    );
+}
+
+.task4 {
+    width: 450px;
+    height: 350px;
+    background-image: linear-gradient(to top right, rgba(25, 0, 255, 0.5) 0%, rgba(255, 0, 0, 0.5) 50%, rgba(0, 255, 0, 0.5) 100%), 
+    url(../images/лев.jpg);
+    background-size: cover;
+}
+
+.circle {
+    width: 10em;
+    height: 10em;
+    background: radial-gradient(closest-side,
+        black 60%,
+        green 61%, green 65%,
+        red 66%, red 71%,
+        blue 72%,  blue 77%,
+        white 78%, white 100%
+        /* специально залито белым и не указан border-radius, чтобы показать что сделан правильный переход между цветами */
+    );
+}
+
+.circle2 {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    box-shadow: 
+        inset 0px 0px 0px 0.5em blue, 
+        inset 0px 0px 0px 1em red, 
+        inset 0px 0px 0px 1.5em green;
+    background-color:black;
+}

@@ -1,0 +1,48 @@
+.main{
+    font-family: Georgia, serif;
+}
+
+.task_title{
+    margin: 50px 50px 30px;
+    font-weight: 600;
+    font-size: large;
+}
+
+.task_title:first-of-type{
+    margin: 30px 50px 30px;
+}
+
+.title{
+    width: 300px;
+    height: 200px;
+    display: block;
+    padding: 5px 10px 15px 15px;
+    margin: 10px 15px 10px 15px;
+    border-style: dashed;
+    border-top-style: solid;
+    border-bottom-style: none;
+    border-color:green;
+    border-width: 5px;
+}
+
+.task2{
+    width: 700px;
+    height: 350px;	
+    text-align: justify;
+}
+
+.left{
+    width: 200px; 
+    height: 100px; 
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.right{
+    width: 150px; 
+    height: 100px; 
+    float: right;
+    margin: 10px 0 10px 10px;
+}
+
+

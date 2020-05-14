@@ -1,0 +1,45 @@
+.one blockquote {
+    padding: 15px;
+    background: green;
+    border-radius: 5px;
+}
+
+.holder a[href^="https"] {
+    color: #f00;
+}
+
+ul ul a[title="youtube"] {
+    color: #ff8d00;
+}
+
+.holder p:first-of-type {
+    font-size: 26px;
+}
+
+.holder [title] {
+    border: 1px solid #067b09;
+}
+
+.text-box h3:first-child {
+    color: pink;
+}
+
+.text-box #greycol {
+    color: grey;
+}
+
+.text-box div:last-of-type p {
+    color: red;
+}
+
+.text-box [title="text"] {
+    color:blue;
+}
+
+.text-box p:nth-last-child(2) {
+    color: green;
+}
+
+.text-box p:last-child {
+    color: yellow;
+}
